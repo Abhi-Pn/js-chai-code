@@ -1,11 +1,11 @@
 let myDate = new Date();
-// console.log(myDate);
-// console.log(typeof myDate);
-// console.log(myDate.toString());
-// console.log(myDate.toDateString());
-// console.log(myDate.toISOString());
-// console.log(myDate.toLocaleString());
-// console.log(myDate.toLocaleTimeString());
+console.log(myDate);
+console.log(typeof myDate);
+console.log(myDate.toString());
+console.log(myDate.toDateString());
+console.log(myDate.toISOString());
+console.log(myDate.toLocaleString());
+console.log(myDate.toLocaleTimeString());
 
 let myCreatedDate = new Date(2024, 3, 12); // In Java Script Months starts from "0". i.e January = 0, Febuary = 1, March = 2,.....
 console.log(myCreatedDate);
