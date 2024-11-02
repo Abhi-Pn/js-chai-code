@@ -40,3 +40,14 @@ function loginMessage2(userName){
     return `${userName} Just Logged In`
 }
 console.log(loginMessage2())
+
+
+function calculatePrice(...num1){ // "..." is Rest / Spread Operator depending on the use
+    return num1
+}
+console.log(calculatePrice(100, 200, 500, 800))
+
+function calculatePrice2(val1, val2, ...num1){ // "..." is Rest / Spread Operator depending on the use
+    return num1
+}
+console.log(calculatePrice2(100, 200, 500, 800))
