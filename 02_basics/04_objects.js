@@ -56,3 +56,17 @@ const user = [
     
 ]
 user[0].email
+
+const course = {
+    courseName: "JS in Hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+// const {courseInstructor} = course
+// console.log(courseInstructor); we can do this as well
+
+const {courseInstructor: instructor} = course
+console.log(instructor);
